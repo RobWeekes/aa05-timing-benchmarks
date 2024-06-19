@@ -20,17 +20,19 @@ function addManyNums(n) {
 
 // local testing
 
-console.log(addNums(5)); // 15
-console.log(addNums(10)); // 55
+// console.log(addNums(5)); // 15
+// console.log(addNums(10)); // 55
 
-console.log(addManyNums(3)); // 10
-console.log(addNums(10000)); // 50005000
+// console.log(addManyNums(3)); // 10
+// console.log(addNums(10000)); // 50005000
 
-const startTime = Date.now();
-addNums(10000000);
-const endTime = Date.now();
+// const startTime = Date.now();
+// addNums(10000000);
+// const endTime = Date.now();
 
-const runtime = endTime - startTime;
-console.log(`Runtime: ${runtime}`)
+// const runtime = endTime - startTime;
+// console.log(`Runtime: ${runtime}`)
+
+
 
 module.exports = [addNums, addManyNums];
