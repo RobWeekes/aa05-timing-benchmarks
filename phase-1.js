@@ -27,7 +27,10 @@ console.log(addNums(4)); // 10
 console.log(addNums(5)); // 15
 console.log(addNums(10)); // 55
 
-// console.log(addManyNums(3)); // 10
+console.log(addManyNums(3)); // 10
+console.log(addManyNums(10)); // 220
+console.log(addManyNums(100)); // 171700
+
 // console.log(addNums(10000)); // 50005000
 
 // const startTime = Date.now();
