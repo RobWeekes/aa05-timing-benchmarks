@@ -20,8 +20,12 @@ function addManyNums(n) {
 
 // local testing
 
-// console.log(addNums(5)); // 15
-// console.log(addNums(10)); // 55
+console.log(addNums(1)); // 1
+console.log(addNums(2)); // 3
+console.log(addNums(3)); // 6
+console.log(addNums(4)); // 10
+console.log(addNums(5)); // 15
+console.log(addNums(10)); // 55
 
 // console.log(addManyNums(3)); // 10
 // console.log(addNums(10000)); // 50005000
